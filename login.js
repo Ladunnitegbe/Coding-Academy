@@ -36,3 +36,15 @@ const students = [
        password: "password102"
     }
 ]
+
+function login(studentid, password) {
+  for (let i = 0; i < students.length; i++) {
+    let student = students[i];
+    if (student.studentid === studentid && student.password === password) {
+      console.log(" Login successful! Welcome " + student.name);
+      return student;
+    }
+  }
+  console.log("Invalid login. Please try again.");
+  return null;
+}
