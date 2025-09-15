@@ -49,7 +49,7 @@ function login(studentid, password) {
   return null;
 }
 
-let id = prompt("Please inter your id");
-let studentPassword = prompt("please inter your password");
+let id = prompt("Please enter your id");
+let studentPassword = prompt("please enter your password");
 
 login(id, studentPassword);
