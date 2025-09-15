@@ -48,3 +48,8 @@ function login(studentid, password) {
   console.log("Invalid login. Please try again.");
   return null;
 }
+
+let id = prompt("Please inter your id");
+let studentPassword = prompt("please inter your password");
+
+login(id, studentPassword);
